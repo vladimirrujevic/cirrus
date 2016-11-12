@@ -1,0 +1,20 @@
+{
+  "name": "cirrus",
+  "description": "A simple weather application inspired by Stormcloud, Typhoon and Cumulus",
+  "version": "0.0.1",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron .",
+     "dev": "lite-server"
+  },
+  "keywords":[
+    "weather",
+    "electron",
+    "forecast"
+  ],
+  "license": "CC BY-SA 4.0",
+  "author": "Vladimir Rujević",
+  "devDependencies":{
+    "electron":"^1.3.4"
+  }
+}
