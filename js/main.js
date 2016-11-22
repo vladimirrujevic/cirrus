@@ -17,9 +17,8 @@ $(document).ready(function(){
   mode = 1;
   //render the demo weather (init)
   render(demoWeather);
-
-  const { remote } = require('electron');
-  if(remote){
+  var e = require("electron")
+  if(typeof(e) === 'object'){
     showTitle();
   }
 });
@@ -75,6 +74,7 @@ var showTitle = function(){
     $("header").animate(
       {
         top: 0,
+        height: 25,
         display: "block"
       },
       500

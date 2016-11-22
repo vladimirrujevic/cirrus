@@ -13,7 +13,7 @@ function createWindow(){
     minHeight: 450,
     backgroundColor: "#cccccc",
     fulscreenable: false,
-    frame: true,
+    frame: false,
     title: "Cirrus"
   }
 

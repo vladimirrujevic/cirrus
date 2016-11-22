@@ -13,10 +13,10 @@ body{
 }
 
 header {
-  display: none;
-  height: -25px;
+  display: block !important;
+  height: 25px;
   position: fixed;
-  top: 0;
+  top: -25px;
   left: 0;
   margin: 0;
   width: 100%;
